@@ -34,9 +34,43 @@ kids-math-game/
 ├── README.md
 └── .gitignore
 ```
+Run in VS Code :
 
+Open the project folder in VS Code:
 
+kids-math-game
 
+Then open:
+
+Terminal → New Terminal
+
+Make sure the terminal is in the project root:
+
+C:\Users\User\OneDrive\Downloads\kids-math-game
+
+If you are currently inside the src folder, go back one level:
+
+cd ..
+
+You can confirm the current folder with:
+
+pwd
+
+Compile the Java Files
+
+Run:
+
+javac -d out src\main\java\com\mycompany\kidsgame\Game.java src\main\java\com\mycompany\kidsgame\KidsGame.java src\main\java\com\mycompany\kidsgame\KidsGameGUI.java src\main\java\com\mycompany\kidsgame\Player.java
+
+If there are no errors, the project compiled successfully.
+
+Run the GUI Version
+
+Run:
+
+java -cp out com.mycompany.kidsgame.KidsGameGUI
+
+This opens the graphical Kids Math Game.
 ## Author
 
 Lubaba Karim
